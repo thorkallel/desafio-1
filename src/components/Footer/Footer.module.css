@@ -1,0 +1,11 @@
+.footer {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #333333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}

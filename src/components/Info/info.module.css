@@ -1,0 +1,82 @@
+.profileInfo {
+  flex-basis: 150px;
+  flex-grow: 3;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  padding: 20px;
+  border-radius: 0;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  color: white;
+}
+
+.profileInfo:hover {
+  background-color: #00f7ff;
+  color: white;
+}
+
+.profileInfo h3 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.profileInfo b {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: #00f7ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 800;
+}
+
+.profileInfo a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: font-size 0.5s ease, line-height 0.5s ease;
+}
+
+.profileInfo:hover p,
+.profileInfo:hover a,
+.profileInfo:hover b,
+.profileInfo:hover h3 {
+  color: black;
+}
+
+.profileInfo a:hover {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #ff00ff;
+}
+
+.profileInfo p {
+  margin: 5px 0;
+  font-size: 0.7rem;
+}
+
+.profileInfo button {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: font-size 0.5s ease, line-height 0.5s ease;
+  background-color: #00f7ff;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profileInfo button:hover {
+  background-color: #00f7ff;
+  color: black;
+}

@@ -1,0 +1,12 @@
+.card {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 20px 20px 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 0;
+  width: auto;
+  border: 2px solid #00f7ff;
+}

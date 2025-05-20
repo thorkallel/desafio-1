@@ -1,0 +1,22 @@
+.profileImage {
+  flex-basis: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #00f7ff;
+  transition: background-color 0.5s ease;
+}
+
+.profileImage:hover {
+  background-color: #faff00;
+}
+
+.profileImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  overflow: hidden;
+}
